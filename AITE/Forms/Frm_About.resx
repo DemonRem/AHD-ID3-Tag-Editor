@@ -117,47 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>Author, designer, developer and programmer:
-==============================
-Ala Ibrahim Hadid
-mailto:ahdsoftwares@hotmail.com
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Written, programmed and developed by Alaa Ibrahim Hadid.
+mailto:alaahadidfreeware@gmail.com
 
-Icons used: Silk icon set 1.3
-_________________________________________
-Mark James
-http://www.famfamfam.com/lab/icons/silk/
-_________________________________________</value>
-  </data>
-  <data name="richTextBox3.Text" xml:space="preserve">
-    <value>AHD ID3 Tag Editor use these resources:
-==========================
-
-MLV (Managed ListView):
-=================
-Is an advanced .Net C# UserControl ListView.
-Copyright © 2013 - 2015 Ala Hadid.
-http://sourceforge.net/projects/mtabcontrol/
-mailto:ahdsoftwares@hotmail.com
-
-This is an article about this project includes all the information.
-http://www.codeproject.com/Articles/538518/Managed-ListView
-
-MTC (Managed Tab Control):
-=====================
-An advanced .Net C# UserControl Tab Control.
-Copyright © 2013 - 2015 Ala Hadid.
-mailto:ahdsoftwares@hotmail.com
-
-Formats and ASMP libraries:
-=================
-Are part of AHD Subtitles Maker Professional, used here and modified for subtitle formats import and export.
-Copyright © 2009 - 2015 Ala Ibrahim Hadid.
-mailto:ahdsoftwares@hotmail.com
-http://ahd-subtitles-maker.webnode.com</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>This program is free software: you can redistribute it and/or modify
+This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.

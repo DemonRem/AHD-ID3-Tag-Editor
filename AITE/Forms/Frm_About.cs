@@ -1,7 +1,7 @@
 ﻿/* This file is part of AHD ID3 Tag Editor (AITE)
  * A program that edit and create ID3 Tag.
  *
- * Copyright © Ala Ibrahim Hadid 2012 - 2015
+ * Copyright © Alaa Ibrahim Hadid 2012 - 2021
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,13 +17,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 namespace AHD.ID3.Editor
@@ -38,13 +31,13 @@ namespace AHD.ID3.Editor
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try { Process.Start("http://sourceforge.net/projects/aite/"); }
+            try { Process.Start("https://github.com/alaahadid/AHD-ID3-Tag-Editor"); }
             catch { }
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try { Process.Start("https://www.facebook.com/AhdId3TagEditor"); }
+            try { Process.Start("https://github.com/alaahadid/AHD-ID3-Tag-Editor/wiki"); }
             catch { }
         }
 
@@ -59,6 +52,21 @@ namespace AHD.ID3.Editor
             {
                 Process.Start(e.LinkText);
             }
+            catch { }
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                Process.Start("mailto:alaahadidfreeware@gmail.com");
+            }
+            catch { }
+        }
+
+        private void richTextBox4_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+            try { Process.Start(e.LinkText); }
             catch { }
         }
     }

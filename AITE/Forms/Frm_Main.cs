@@ -1,7 +1,7 @@
 ﻿/* This file is part of AHD ID3 Tag Editor (AITE)
  * A program that edit and create ID3 Tag.
  *
- * Copyright © Ala Ibrahim Hadid 2012 - 2015
+ * Copyright © Alaa Ibrahim Hadid 2012 - 2021
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -63,8 +63,9 @@ namespace AHD.ID3.Editor
                         deleteToolStripMenuItem.Enabled = deleteToolStripMenuItem1.Enabled =
                             deleteToolStripMenuItem2.Enabled = deleteToolStripMenuItem3.Enabled = true;
                         break;
-                    default: deleteToolStripMenuItem.Enabled = deleteToolStripMenuItem1.Enabled =
-                       deleteToolStripMenuItem2.Enabled = deleteToolStripMenuItem3.Enabled = false;
+                    default:
+                        deleteToolStripMenuItem.Enabled = deleteToolStripMenuItem1.Enabled =
+                  deleteToolStripMenuItem2.Enabled = deleteToolStripMenuItem3.Enabled = false;
                         break;
                 }
             }
@@ -1694,7 +1695,8 @@ namespace AHD.ID3.Editor
                     {
                         Process.Start(c_filesBrowser.GetSelectedFiles()[0]);
                     }
-                    catch { } break;
+                    catch { }
+                    break;
             }
         }
         private void c_listsBrowser_ListSelect(object sender, ListSelectArgs e)
@@ -2841,6 +2843,24 @@ namespace AHD.ID3.Editor
                 }
                 c_quickTagEditorv2_ReloadMediaRequest(this, null);
             }
+        }
+        private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try { Process.Start("https://github.com/alaahadid/AHD-ID3-Tag-Editor"); }
+            catch { }
+        }
+        private void wikiOnlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try { Process.Start("https://github.com/alaahadid/AHD-ID3-Tag-Editor/wiki"); }
+            catch { }
+        }
+        private void donateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alahadid@gmail.com&item_name=Donation&currency_code=USD&bn=PP-DonationsBF");
+            }
+            catch { }
         }
     }
     public enum ActiveTab

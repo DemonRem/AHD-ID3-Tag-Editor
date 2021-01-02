@@ -117,7 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\source\ID3Tag\ID3Tag.csproj">
+    <ProjectReference Include="..\ID3Tag\ID3Tag.csproj">
       <Project>{cf94e1ec-89cf-4363-a4ad-370b71a1058e}</Project>
       <Name>ID3Tag</Name>
     </ProjectReference>

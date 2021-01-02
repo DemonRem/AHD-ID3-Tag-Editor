@@ -1,7 +1,7 @@
 ﻿/* This file is part of AHD ID3 Tag Editor (AITE)
  * A program that edit and create ID3 Tag.
  *
- * Copyright © Ala Ibrahim Hadid 2012 - 2015
+ * Copyright © Alaa Ibrahim Hadid 2012 - 2021
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -50,5 +50,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.244.133")]
-[assembly: AssemblyFileVersion("1.0.244.133")]
+[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyFileVersion("1.0.7672.39366")]
