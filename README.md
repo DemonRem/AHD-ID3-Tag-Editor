@@ -5,6 +5,7 @@ A program that create and edit ID3 Tag.
 **Please note that this is the official repository of the program, that means official updates on source and releases will be commited/published here.**
 
 ### [DOWNLOAD LATEST RELEASE (VERSION)](https://github.com/alaahadid/AHD-ID3-Tag-Editor/releases)
+### [New to AITE ? Getting Started (Tutorials)](https://github.com/alaahadid/AHD-ID3-Tag-Editor/wiki/Getting-Started-(Tutorials))
 
 ## Introduction
 AHD ID3 Tag Editor is a powerful tool designed to work with Windows®. It permits you to edit and create the ID3 Tag for mp3 files. For more information about ID3 Tag, please visit: www.ID3.org.
